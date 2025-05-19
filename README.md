@@ -1,2 +1,3 @@
-# wawa-sim-3d-lvls
-Wawa Simulator 3D levels repo
+# Wawa Simulator 3D Levels Repository
+This repo contains all the worlds and levels for my next mobile game.
+LOL
