@@ -1,3 +1,5 @@
+x bounds: -40 to 40
+
 all types and parameters:
 > wall       | X Y Z length
 > spike      | X Y Z
@@ -19,14 +21,3 @@ choiceGoal all types:
 > a*2\3\5 | multiplies ammo
 > a/2\3\5 | divides ammo
 example: choiceGoal -10 53 -30 a+5
-
-possible formats:
-[
-  {"t":"ammo", "x":0, "y":10, "z":-20}
-  {"t":"ammo", "params":[-20, 30, 40]
-]
-
-[
-  ["ammo", 10, 20, 30]
-  //this is most likely, yeah!//
-]
