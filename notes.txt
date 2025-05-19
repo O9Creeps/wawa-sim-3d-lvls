@@ -1,0 +1,22 @@
+all types and parameters:
+> wall       | X Y Z length
+> spike      | X Y Z
+> Xsaw       | fromX toX Y Z speed
+> ammo       | X Y Z
+> money      | X Y Z
+> hpAdd      | X Y Z
+> bonusTap   | X Y Z
+> choiceGoal | X Y Z type
+
+choiceGoal all types:
+> m+2\3\5\9\10 | add 2/3/5/9/10 to money
+> m*2\3 | multiplies money by 2 or 3
+> m-5\10\12 | takes 5/10/12 money
+> m/2\3 | divides money by 2 or 3
+>
+> a+2\5\9 | adds to ammo
+> a+r | picks 2 5 or 9 to add to ammo
+> a*2\3\5 | multiplies ammo
+> a/2\3\5 | divides ammo
+example: choiceGoal -10 53 -30 a+5
+
