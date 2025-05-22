@@ -10,7 +10,7 @@ all types and parameters:
 > Xsaw       | fromX toX Y Z speed
 # ammo       | X Y Z
 # money      | X Y Z
-> hpAdd      | X Y Z
+> heal       | X Y Z
 > bonusTap   | X Y Z
 > choiceGoal | X Y Z type
 
