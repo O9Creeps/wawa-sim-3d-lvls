@@ -7,7 +7,7 @@ x bounds: -50 to 50
 all types and parameters:
 # wall       | X Y Z Xsize Zsize
 > spike      | X Y Z
-> Xsaw       | Y Z speed
+> Xsaw       | Y Z speed startX
 # ammo       | X Y Z
 # money      | X Y Z
 > heal       | X Y Z
